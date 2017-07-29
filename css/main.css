@@ -172,14 +172,18 @@ body {
     left: -100%;
   }
 }
-
+audio {
+  display: none;
+}
 @media (max-width: 767px) {
   /*.fullscreen-bg {*/
   /*background: url('../img/video.png') center center / cover no-repeat;*/
   /*}*/
   .fullscreen-bg__video {
     width: 300%;
-
+  }
+  audio {
+    display: inherit;
   }
 }
 
