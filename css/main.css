@@ -96,6 +96,7 @@ textarea {
    ========================================================================== */
 body {
   font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+  background-color: black;
 }
 
 .centerImg {
@@ -115,20 +116,6 @@ body {
   top: 25%;
   position: absolute;
   text-align: center;
-}
-
-.door {
-  height: 503px;
-  width: 215px;
-  background: url('../img/door.jpg');
-}
-
-.door:hover {
-  background: url('../media/door_moving.gif');
-}
-
-audio {
-  background-color: black;
 }
 
 /**
