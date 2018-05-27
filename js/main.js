@@ -5,6 +5,6 @@
       document.getElementsByClassName("textContainer")[0].className += " show";
       var audio = document.getElementsByTagName("audio")[0];
       audio.play();
-    }, 15000);
+    }, 13500);
   }, false);
 })();
