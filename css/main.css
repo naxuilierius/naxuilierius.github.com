@@ -127,6 +127,31 @@ body {
   background: url('../media/door_moving.gif');
 }
 
+audio {
+  background-color: black;
+}
+
+/**
+TEXT ANIMATION DELAY
+ */
+.animation {
+  opacity: 0;
+  -webkit-transition: opacity 1s ease-in;
+  -moz-transition: opacity 1s ease-in;
+  -ms-transition: opacity 1s ease-in;
+  -o-transition: opacity 1s ease-in;
+  transition: opacity 1s ease-in;
+}
+
+.show {
+  opacity: 1;
+}
+
+/* END */
+.textContainer {
+  color: white;
+}
+
 .naxui {
   font-size: 3em;
 }
