@@ -134,13 +134,53 @@ TEXT ANIMATION DELAY
 }
 
 /* END */
-.textContainer {
-  color: white;
-}
-
 .naxui {
   font-size: 3em;
+
+  -webkit-animation-name: spin;
+  -webkit-animation-duration: 4000ms;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: spin;
+  -moz-animation-duration: 4000ms;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -ms-animation-name: spin;
+  -ms-animation-duration: 4000ms;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;
+
+  animation-name: spin;
+  animation-duration: 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
+@-ms-keyframes spin {
+  99%  {transform: rotate(0deg);}
+  100%{transform: rotate(7deg);}
+}
+@-moz-keyframes spin {
+  99%  {transform: rotate(0deg);}
+  100%{transform: rotate(7deg);}
+}
+@-webkit-keyframes spin {
+  99%  {transform: rotate(0deg);}
+  100%{transform: rotate(7deg);}
+}
+@keyframes spin {
+  99%  {transform: rotate(0deg);}
+  100%{transform: rotate(7deg);}
+}
+
+
+.textContainer {
+  color: white;
+  font-family: 'Righteous', cursive;
+}
+
+/*.naxui {*/
+  /*font-size: 3em;*/
+/*}*/
 
 .date {
   font-size: 2em;
@@ -191,7 +231,8 @@ audio {
   /*background: url('../img/video.png') center center / cover no-repeat;*/
   /*}*/
   .fullscreen-bg__video {
-    width: 300%;
+    width: 200%;
+    left: -50%
   }
   audio {
     display: inherit;
