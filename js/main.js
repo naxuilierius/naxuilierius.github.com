@@ -5,7 +5,7 @@ var isStarted = false;
   vidElem.addEventListener("play", function () {
     setTimeout(function () {
       document.getElementsByClassName("textContainer")[0].className += " show";
-    }, 5500);
+    }, 6500);
   }, false);
 })();
 
